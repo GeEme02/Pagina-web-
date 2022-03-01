@@ -1,0 +1,51 @@
+h1{
+    color: white;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        text-decoration: dashed;
+        
+
+
+}
+h2{
+    color:white;
+    text-align: center;
+    
+}
+#listadesordenada{
+    display: flex;
+}
+ #elemento{
+     margin: 10px;
+    padding: 20px;
+    color: white;
+    background-color: blanchedalmond;
+}
+#imagen-radio{
+    height: 600px;
+    width: 500px;
+    border-radius: 20px;
+}
+body{
+    background-color: rgb(18, 70, 18);
+    color:white;
+}
+footer{
+    display: flex;
+    text-align: center;
+}
+#imagen-planta{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+#negocio{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    vertical-align: middle;
+    justify-content: center;
+}
+    
+

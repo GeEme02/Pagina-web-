@@ -1,0 +1,119 @@
+body{
+    background: white; 
+    color:black;
+    font-family: Roboto,sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.8rem;
+}
+.tituloPrinc{
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-decoration: dashed;
+    
+    font-size: 3rem;
+}
+
+.barraNav{
+    display: flex;
+    flex-direction: row;
+    
+   background-color: rgb(61, 82, 61);
+   border: 1px solid black;
+   border-radius: 20px;  
+}
+
+#logo{
+    width: 10rem;
+    height: 10rem;
+}
+
+.padreli{
+    display: flex;
+    flex-direction: row;
+}
+
+h2{
+    color:black;
+    text-align: center;
+    font-size: 4rem;
+}
+
+ .elemento{
+    display: flex;
+    font-size: xx-large;
+     margin: 10px;
+    padding: 20px;
+    background-color:transparent;
+
+}
+
+.link{
+    color: rgb(240, 240, 240);
+    text-decoration: none;
+}
+.link:hover{
+    color: rgb(0, 0, 0);
+}
+
+
+.divAbout {
+    margin: auto;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+   
+    
+}
+
+.imagen-pag-principal{
+    margin-left: 3rem;
+    position:static;
+    top: 50%;
+    left: 50%;
+    width: 110rem;
+    border-radius: 80px;
+    justify-content: center;   
+    flex-direction: column;
+
+}
+
+.parrafo-princ{
+    text-align: justify;
+    font-size: 2rem;
+    line-height : 3.5rem;
+}
+
+
+.divRadio{
+    margin: 2rem 0 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+
+
+}
+
+.imagen-radio{
+    height: 35rem;
+    width: 50rem;
+    border-radius: 20px;
+}
+
+footer{
+    
+    font-size: 1.5rem;
+    display: flex;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.198);
+}
+
+.planta-producto{
+    height: 35rem;
+    width: 50rem;
+    border-radius: 20px;
+}
