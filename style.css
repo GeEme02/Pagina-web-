@@ -117,3 +117,9 @@ footer{
     width: 50rem;
     border-radius: 20px;
 }
+.rounded float-start{
+    transform: scale(1.2);
+    object-fit: contain;
+    transition: all 2s;
+    animation: alternate 2seg;
+}
